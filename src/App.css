@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -39,4 +39,15 @@
 
 .main {
   display: flex;
+}
+
+header {
+  background-color: #282c34;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+header img {
+  object-fit: contain;
 }

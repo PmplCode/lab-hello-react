@@ -9,11 +9,11 @@ import icon4 from './images/icon4.png';
 function App() {
   return (
     <div className="App">
-      <div className='App-header'>
         <header>
           <img src={logoIron} alt='ironhack-logo'/>
           <img src={menuNav} alt='menu-rop-img'/>
         </header>
+      <div className='App-header'>
         <section>
           <h1>Say hello to ReactJS</h1>
           <p>You will learn how to use the most popular frontend library, and become a super Ninja developer.</p>
